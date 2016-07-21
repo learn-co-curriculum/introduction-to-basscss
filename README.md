@@ -62,7 +62,7 @@ width (i.e. the entire browser)!
 ```html
 <body>
   <div style="width: 300px">
-    
+
   </div>
 </body>
 ```
@@ -73,7 +73,7 @@ Now that that's done, we'll add the container for our nametag that holds all oth
 <body>
   <div style="width: 300px">
     <div class="flex">
-      
+
     </div>
   </div>
 </body>
@@ -93,7 +93,9 @@ Yay, flexbox! Next, we'll add Scooby Doo's image, as well as his name and job ti
 </div>
 ```
 
-Hmm.. well, we're slowly getting there, but not quite yet. First things first, let's add a rounded border to our flex
+![step 1](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_1.png)
+
+Hmm... well, we're slowly getting there, but not quite yet. First things first, let's add a rounded border to our flex
 container:
 
 ```html
@@ -107,6 +109,8 @@ container:
   </div>
 </div>
 ```
+
+![step 2](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_2_border_rounded.png)
 
 Now we'll remove any existing margins on the title, and align items in the center:
 
@@ -122,6 +126,8 @@ Now we'll remove any existing margins on the title, and align items in the cente
 </div>
 ```
 
+![step 3](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_3_items-centered_m0.png)
+
 We don't want to the image to take up more space than it should, so let's add a `flex-none` class to make it shrink:
 
 ```html
@@ -134,12 +140,16 @@ The text is kind of pushed up against the image... Let's fix that by adding a bi
 <img class="flex-none mr1" src="http://i.imgur.com/KveOp9g.png" alt="Scooby Doo">
 ```
 
+![step 4](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_4_flex-none_mr1.png)
+
 Great! As a finishing touch, we'll use one of Basscss' typographic utilities, `.caps`, to make our job title appear in
 uppercase letters:
 
 ```html
 <small class="caps">Pet Detective</small>
 ```
+
+![step 5](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_5_caps.png)
 
 And that's it! Here's the full code for the nametag:
 
