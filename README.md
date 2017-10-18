@@ -28,7 +28,7 @@ aligning text, rounding corners, and so on.
 ## Basscss
 Basscss is a very lightweight CSS framework that focuses on sane defaults and more complex layout possibilities. It's
 not an all-in-one framework like Bootstrap or Foundation, but it will help us to help lay out the application in a
-better way. It doesn't make our buttons like fancy or anything like that, but we're not concerned with that right now.
+better way. It doesn't make our buttons look fancy or anything like that, but we're not concerned with that right now.
 
 
 ## Typography
@@ -137,7 +137,7 @@ Now we'll remove any existing margins on the title, and align items in the cente
 
 ![step 3](https://curriculum-content.s3.amazonaws.com/skills-based-js/basscss_step_3_items-centered_m0.png)
 
-We don't want to the image to take up more space than it should, so let's add a `flex-none` class to make it shrink:
+We don't want the image to take up more space than it should, so let's add a `flex-none` class to make it shrink:
 
 ```html
 <img class="flex-none" src="http://i.imgur.com/KveOp9g.png" alt="Scrappy-Doo">
@@ -179,3 +179,5 @@ Feel free to dive into Basscss' documentation to learn even more, so your applic
 
 ## Resources
 - [Basscss](http://www.basscss.com)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/introduction-to-basscss'>Introduction to Basscss</a> on Learn.co and start learning to code for free.</p>
